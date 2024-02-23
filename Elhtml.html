@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="Elcss.css">
+</head>
+<body>
+    <h1>Bienvenido (a), esta es la página de resolución de "Ejercicio 1"</h1>
+    <button onclick="cargarScript('1.js')">Ejercicio 1</button>
+    <button onclick="cargarScript('2.js')">Ejercicio 2</button>
+    <button onclick="cargarScript('3.js')">Ejercicio 3</button>
+    <button onclick="cargarScript('4.js')">Ejercicio 4</button>
+    <script>
+        function cargarScript(script) {
+            scriptElement = document.createElement("script");
+            scriptElement.src = script;
+            document.body.appendChild(scriptElement);
+        }
+    </script>
+</body>
+</html>

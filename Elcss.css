@@ -1,0 +1,25 @@
+
+body {
+    background-image: url("https://th.bing.com/th/id/OIG3.77Nq_jZ0WGa2m_z_9ztQ?w=1024&h=1024&rs=1&pid=ImgDetMai n");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    color:black;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color:aquamarine;
+    color:black;
+    padding: 20px 20px;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    font-size: 20px;
+    content: center;
+}
